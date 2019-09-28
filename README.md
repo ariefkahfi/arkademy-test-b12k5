@@ -22,13 +22,13 @@ contoh `node 1.js`
 ## Screenshot aplikasi ke-6
 
 ### Gambar tampilan aplikasi
-![Tampilan Awal](https://github.com/ariefkahfi/arkademy-test-b12k3/blob/master/6/ss/awal.png?raw=true)
+![Tampilan Awal](https://github.com/ariefkahfi/arkademy-test-b12k5/blob/master/6/ss/awal.png?raw=true)
 
 ### Tambah data
-![Tambah Data](https://github.com/ariefkahfi/arkademy-test-b12k3/blob/master/6/ss/tambah.png?raw=true)
+![Tambah Data](https://github.com/ariefkahfi/arkademy-test-b12k5/blob/master/6/ss/tambah.png?raw=true)
 
 ### Edit data
-![Edit Data](https://github.com/ariefkahfi/arkademy-test-b12k3/blob/master/6/ss/edit.png?raw=true)
+![Edit Data](https://github.com/ariefkahfi/arkademy-test-b12k5/blob/master/6/ss/edit.png?raw=true)
 
 ### Hapus data
-![Hapus Data](https://github.com/ariefkahfi/arkademy-test-b12k3/blob/master/6/ss/hapus.png?raw=true)
+![Hapus Data](https://github.com/ariefkahfi/arkademy-test-b12k5/blob/master/6/ss/hapus.png?raw=true)
