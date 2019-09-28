@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Arkademy CRUD
+        link(href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="/assets/css/index.css")
+        script( type="text/javascript" src="/assets/js/jquery.min.js")
+    body
+        nav(id="top-nav",class="clearfix")
+            img(src="/assets/img/logo.png")
+            h3 ARKADEMY BOOTCAMP
+
+
+
+        div(class="modal-wrapper",id="modal-msg")
+            div(class="modal")
+                div(class="modal-header clearfix")
+                    img(class="modal-close",src="/assets/img/close.png",onclick="onClose(this)")
+                div(class="modal-body")
+                    div(class="form-body")
+                        img(class="img-msg",src="/assets/img/checked.png")
+                        div(id="msg")
+        
+
+        div(class="modal-wrapper",id="modal-main")        
+            div(class="modal")
+                div(class="modal-header clearfix")
+                    div(class="modal-title",id="modal-title")
+                    img(class="modal-close",src="/assets/img/close.png",onclick="onClose(this)")
+                div(class="modal-body")
+                    div(class="form-body")
+                        div(class="form-row")
+                            input(class="form-control form-input",placeholder="Name...",type="text",id="name")
+                        div(class="form-row")
+                            select(class="form-control form-input bg-white",placeholder="Work...",id="select-work")
+                        div(class="form-row")
+                            select(class="form-control form-input bg-white",placeholder="Salary...",id="select-category")
+                        div(class="form-row clearfix",id="form-modal-main")
+                            
+
+
+
+
+        div(id="container")
+            div(class="clearfix",id="btn-container")
+                button(class="btn-yellow",id="modal-add") ADD 
+            table(id="table" , border="1")
+                thead
+                    tr
+                        th Name
+                        th Work
+                        th Salary
+                        th Actions
+                tbody
+
+
+
+    script(type="text/javascript" src="/assets/js/index.js")
